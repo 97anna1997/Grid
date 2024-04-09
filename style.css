@@ -4,7 +4,6 @@
 }
 main {
   margin: auto;
-  background: gray;
   max-width: 1300px;
   height: 100vh;
 }
@@ -15,11 +14,31 @@ main .allInfo {
 }
 main .allInfo div {
   height: 700px;
-  color: white;
   border: 1px solid white;
 }
 main .allInfo .div1 {
   background-color: #000;
+  color: white;
+}
+main .allInfo .div1 .logo1 > h2 {
+  text-align: center;
+  padding-top: 100px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+main .allInfo .div1 .conteiner_a {
+  padding-top: 143px;
+  padding-bottom: 64px;
+  background-color: #009688;
+}
+main .allInfo .div1 .conteiner_a .one {
+  color: darkblue;
+  font-size: 16px;
+}
+main .allInfo .div1 .conteiner_a .two {
+  color: white;
+  font-size: 16px;
 }
 main .allInfo .div2 {
   background-color: #607d8b;
@@ -36,6 +55,13 @@ main .allInfo .div5 {
 main .allInfo .div6 {
   background-color: #009688;
 }
-footer {
+main .logo1 > h2 {
+  text-align: center;
+  padding-top: 100px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+main footer {
   background-color: #000;
 }
